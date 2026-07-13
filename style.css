@@ -150,5 +150,109 @@
   margin-bottom: 24px;
 }
  
+.hackathon {
+  padding: 80px 60px;
+}
+ 
+/* three quick-info cards: date / theme / team size */
+.hackathon-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+ 
+.hackathon-detail {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+}
+ 
+.hackathon-detail h3 {
+  margin: 8px 0 6px;
+  font-size: 20px;
+}
+ 
+.hackathon-detail p {
+  color: #666;
+   font-size: 14px;
+}
+ 
+/* horizontal timeline */
+.hackathon-timeline {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 60px;
+  position: relative;
+  padding: 0 10px;
+}
+ 
+/* connecting line behind the timeline steps */
+.hackathon-timeline::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  right: 5%;
+  height: 2px;
+  background: #ddd;
+  z-index: 0;
+}
+ 
+.timeline-step {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+ 
+.timeline-step::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #2b3fe0;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+}
+ 
+.timeline-time {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+ 
+.timeline-step p {
+  font-size: 13px;
+  color: #666;
+  max-width: 140px;
+  margin: 0 auto;
+}
+ 
+.prize-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  align-items: center;
+}
+ 
 
+.prize-grid .price-card-dark {
+  transform: scale(1.05);
+  text-align: center;
+}
+ 
+.prize-grid .price-card {
+  text-align: center;
+}
+ 
+.hackathon-cta {
+  text-align: center;
+}
  

@@ -120,3 +120,35 @@
   max-width: 1100px;
   margin: 0 auto;
 }
+ 
+.price-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 30px;
+}
+.price-card-dark {
+  background: #0d1226;
+  color: #fff;
+  border: none;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #2b3fe0;
+  color: #2b3fe0;
+  width: 100%;
+}
+.price-note {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 18px;
+}
+ 
+.price-card ul {
+  list-style: none;
+  margin-bottom: 24px;
+}
+ 
+
+ 
